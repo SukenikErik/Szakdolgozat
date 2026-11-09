@@ -424,5 +424,11 @@ FodyWeavers.xsd
 *.msm
 *.msp
 
+# Projekt: a packages/ folders contains the shared code
+!/packages/*
+
+# Vite build outpu
+dist/
+
 # Official VS Code C# Dev Kit Extension exclusion
 #*.lscache
